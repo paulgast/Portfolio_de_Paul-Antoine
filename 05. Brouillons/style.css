@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    background-color: black;
+    font-family: 'Anton', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    color:white; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin-right: 3em; 
+    padding:0px; 
+}
+
+#navbar li {
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin:0px; 
+}
+
+
+/* Couverture */
+#couverture {
+    color:white; 
+    background-image: url('fond.png');
+    height: 14em;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+#titre {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 7em;
+}
+
+#titre h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: Black;
+    margin: 0px;
+}
+
+#titre h2 {
+    color: silver; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0px;
+}
+
+
+/* Informations */
+
+#container {
+    border-top: 1px solid red;
+    margin: 7em;
+    margin-top: 3em;
+    padding-top: 2em;
+    color: ivory;
+}
+
+#container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+
+.imageflottante {
+    background-image: url('profil.jpg'); 
+    height: 15em;
+    width: 15em;
+    margin-left: 9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid white 2px;
+    box-shadow: white;
+}
+
+.boite {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#resume {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items:left; 
+    max-width: 700px;
+}
+
+.texte  {
+    margin-top: 0px;
+    line-height: 2em;
+}
+
+#technos {
+    display: flex;
+    flex-direction: row;
+}
+
+#techos2 {
+    margin-left: 5em;
+}

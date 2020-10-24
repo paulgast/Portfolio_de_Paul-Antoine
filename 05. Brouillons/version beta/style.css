@@ -1,0 +1,13 @@
+#body {
+  padding: 0px;
+  margin: 0px;
+}
+#landcover {
+    background-image: url('palm.jpg');
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 20em;
+    width: 100%;
+  }
+
